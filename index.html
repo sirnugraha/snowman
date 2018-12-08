@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>--- TODO ---</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    body{
+      width:100%;
+      height:100%;
+      min-height:100vh;
+      background-image: linear-gradient(to top,#CFD9DF 0%, #E2EBF0 100%);
+    }
+    
+    .circle{
+      width:400px;
+      height:400px;
+      border-radius:100%;
+      background-image: linear-gradient(-90deg, #ffc8c3, #ffdfc0);
+      position : absolute;
+      top :50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+    }
+    
+    .snowman-head{
+      width:150px;
+      height:140px;
+      border-radius:100%;
+      background:#fffdfc;
+      position : absolute;
+      left: 50%;
+      top : 10px;
+      transform:translate(-50%,0);
+    }
+    
+    .eye-left{
+      width:15px;
+      height:15px;
+      border-radius:100%;
+      background:#313131;
+      position : absolute;
+      left: 45px;
+      top : 50px;
+      
+    }
+    
+    .eye-right{
+      width:15px;
+      height:15px;
+      border-radius:100%;
+      background:#313131;
+      position : absolute;
+      right: 45px;
+      top : 50px;
+      
+    }
+    
+    .blush-left{
+      width:20px;
+      height:20px;
+      border-radius:100%;
+      background:#ffc8c3;
+      position : absolute;
+      left: 30px;
+      top : 85px;
+      
+    }
+    
+    .blush-right{
+      width:20px;
+      height:20px;
+      border-radius:100%;
+      background:#ffc8c3;
+      position : absolute;
+      right: 30px;
+      top : 85px;
+      
+    }
+    
+    .mouth-base{
+      width:25px;
+      height:25px;
+      background:#313131;
+      border-radius:100%;
+      position : absolute;
+      left: 50%;
+      top : 60px;
+      transform:translate(-50%,0);
+    }
+    
+    .mouth-cover{
+      width:25px;
+      height:25px;
+      background:#fff;
+      border-radius:100%;
+      position : absolute;
+      left: 50%;
+      transform:translate(-50%,0);
+      top : 50px;
+    }
+    
+    .snowman-body{
+      width:250px;
+      height:220px;
+      background:#fff;
+      border-radius:100%;
+      position : absolute;
+      left: 50%;
+      transform:translate(-50%,0);
+      top : 120px;
+    }
+    
+    .scarf-vertical{
+      width:200px;
+      height:60px;
+      background:#ff005f;
+      border-radius:15%;
+      position : absolute;
+      left: 50%;
+      transform:translate(-50%,0);
+      top : 110px;
+    }
+    
+    .scarf-horizontal{
+      width:60px;
+      height:90px;
+      background:#ff005f;
+      border-radius:15%;
+      position : absolute;
+      left: 65%;
+      transform:translate(-50%,0);
+      top : 125px;
+    }
+  
+  </style>
+  </head>
+  <body>
+
+
+
+    <!-- TODO: Here goes your content! -->
+    <div class="circle">
+      <div class="snowman-head">
+        <div class="eye-left"></div>
+        <div class="eye-right"></div>
+        <div class="blush-left"></div>
+        <div class="blush-right"></div>
+        <div class="mouth-base"></div>
+        <div class="mouth-cover"></div>
+        <div class="mouth-edge-left"></div>
+      </div>
+      <div class="snowman-body">
+        <div class="button-top"></div>
+        <div class="button-bottom"></div>
+      </div>
+      <div class="scarf-vertical"></div>
+      <div class="scarf-horizontal"></div>
+    </div>
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
